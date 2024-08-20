@@ -1,0 +1,17 @@
+{
+  "name": "Painty",
+  "version": "1.0.0",
+  "description": "Painty est une application de bureau perméttant de faire des dessins en 2D avec simplicité et rapidité.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "electron-dist": "electron-builder",
+    "electron-packer": "electron-builder --dir"
+  },
+  "author": "ONANA Vital",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "23.1.3"
+  }
+}
